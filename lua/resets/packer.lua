@@ -28,4 +28,12 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
+use("sindrets/diffview.nvim")
+use("lewis6991/gitsigns.nvim")
+use("nvim-tree/nvim-tree.lua")
+use("napmn/react-extract.nvim")
+use("prettier/vim-prettier")
+
+
 end)
+
